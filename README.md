@@ -1,25 +1,33 @@
-# AI Chatbot s Groq API
+# AI Chatbot with Groq API
 
-Jednoduchý AI chatbot v slovenčine postavený na Groq API a Python.
+A simple terminal-based AI chatbot built with Groq API and Python.
 
-## Čo to robí
-- Komunikuje s AI modelom (Llama 3.3) cez Groq API
-- Odpovedá v slovenčine
-- Beží v termináli ako interaktívny chat
+## What it does
 
-## Technológie
+- Communicates with an AI model (LLaMA 3.3) via Groq API
+- Runs as an interactive chat in the terminal
+- Supports conversation history across messages
+
+## Technologies
+
 - Python
 - Groq API
-- Llama 3.3 70b model
+- LLaMA 3.3 70B model
 
-## Inštalácia
-1. Nainštaluj knižnicu:
-   pip install groq
+## Installation
 
-2. Vlož svoj Groq API kľúč do súboru ai_asistent.py
+1. Install the library:
+```
+pip install groq
+```
 
-3. Spusti:
-   py ai_asistent.py
+2. Add your Groq API key to `ai_asistent.py`
 
-## Použitie
-Napíš čokoľvek a AI ti odpovie. Pre ukončenie napíš `koniec`.
+3. Run:
+```
+py ai_asistent.py
+```
+
+## Usage
+
+Type anything and the AI will respond. Type `koniec` to exit.
